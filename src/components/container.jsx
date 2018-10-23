@@ -50,8 +50,9 @@ export  class Host extends Component {
                 <Cell size={10}>
                 </Cell>
             </Grid>
-            <Grid >
-                <Cell size={2}>
+            <Grid  >
+                <Cell size={2} >
+                <div className="sticky">
                     <List className="">
                         <ListItem
                             primaryText="All" onClick={ () => this.searchByCatergory("")}
@@ -67,6 +68,7 @@ export  class Host extends Component {
                             primaryText="Office" onClick={ () => this.searchByCatergory("Office")}
                         />
                     </List>
+                </div>
                 </Cell>
                 <Cell size={10}>
                     {/* <button onClick={ () => this.searchByCatergory("Tech")}>Tech</button>
