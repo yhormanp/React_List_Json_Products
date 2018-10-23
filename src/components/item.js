@@ -3,19 +3,9 @@ import { Grid, Cell } from 'react-md';
 
 export class Item extends Component{
 
-    // constructor(props)
-    // {
-    //     super(props);
-    // }
-
     SetBrandCategories (brand, categories ){
         var resultText=categories + ", " ;
         resultText += " " + brand ;
-
-        // for (let index = 0; index < categories.length; index++) {
-        //     resultText += categories + ","
-        // }
-
         return <span>{resultText}</span>;
     }
 
@@ -28,8 +18,6 @@ export class Item extends Component{
         )
 
     }
-
-  
 
     render (){
         const product = this.props.productdata;
@@ -48,10 +36,6 @@ export class Item extends Component{
                     <Cell size={4}>
                         <div>
                             {this.SetAvatar(product)}
-                            {/* <img style={{width:"120px"}}
-                            src={product.photo} 
-                            >
-                            </img> */}
                         </div>
                     </Cell>
                     <Cell size={8}>
@@ -65,30 +49,6 @@ export class Item extends Component{
                         </div>
                     </Cell>
                 </Grid>
-                {/* <div className="Title">
-                    <h4>{product.name}</h4>
-                    <br/>
-                    {this.SetBrandCategories(product.brand, product.categories)}
-                </div>
-                <div className="avatar">
-                    <img style={{width:"120px"}}
-                    src={product.photo} 
-                    >
-                    </img>
-                </div>
-                <div className="details">
-                    {product.description}
-                    <br/>
-                    <b>stock:</b> { product.stock}
-                    <br/>
-                    <b>price: $</b> { product.price}
-
-
-
-                </div> */}
-                
-                
-               
             </div>
         )
     }
