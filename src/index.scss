@@ -43,8 +43,20 @@ h2{
   margin: 0;
 }
 
+.md-grid
+{
+   margin: 0 !important;
+  padding: 0 !important;
+}
+
+.navBar
+{
+  background-color: grey;
+}
+
+
 .sticky {
-  position: fixed;
+  position: static;
   top: 0;
  
 }
