@@ -12,7 +12,7 @@ export class Products extends Component {
     this.state = {
       Products: resultSet,
       currentCategory: "",
-      filteredElements: []
+      filteredElements: resultSet
     };
   }
 

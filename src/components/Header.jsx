@@ -9,16 +9,16 @@ const Header = () => (
       <Grid >
         <Cell size={2} />
         <Cell size={1}>
-          <Link to="/">Home</Link>
+          <b><Link to="/">Home</Link></b>
         </Cell>
         <Cell size={1}>
-          <Link to="/products">Products</Link>
+          <b><Link to="/products">Products</Link></b>
         </Cell>
         <Cell size={1}>
-          <Link to="/clients">Clients</Link>
+          <b><Link to="/clients">Clients</Link></b>
         </Cell>
         <Cell size={1}>
-          <Link to="/contact">Contact</Link>
+          <b><Link to="/contact">Contact</Link></b>
         </Cell>
         <Cell size={6} />
       </Grid>
