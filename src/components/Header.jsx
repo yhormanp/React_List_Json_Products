@@ -15,12 +15,15 @@ const Header = () => (
           <b><Link to="/products">Products</Link></b>
         </Cell>
         <Cell size={1}>
+          <b><Link to="/productsreusable">Products Reusable</Link></b>
+        </Cell>
+        <Cell size={1}>
           <b><Link to="/clients">Clients</Link></b>
         </Cell>
         <Cell size={1}>
           <b><Link to="/contact">Contact</Link></b>
         </Cell>
-        <Cell size={6} />
+        <Cell size={5} />
       </Grid>
     </Cell>
   </Grid>
